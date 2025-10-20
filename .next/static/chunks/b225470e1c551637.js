@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,2367,t=>{"use strict";t.s(["SchemaMarkup",()=>n]);var e=t.i(19841);function n(t){let{schema:n}=t,i={type:"application/ld+json",dangerouslySetInnerHTML:{__html:JSON.stringify(n,null,2)}};return(0,e.jsx)("script",{...i})}}]);

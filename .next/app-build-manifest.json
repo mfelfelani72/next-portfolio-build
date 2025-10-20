@@ -1,0 +1,26 @@
+{
+  "pages": {
+    "/[lang]/mfelfelani/page": [
+      "static/chunks/cd9870714d1c291c.js",
+      "static/chunks/f3f1db09aa0799f0.css",
+      "static/chunks/07524d27dab627a8.js",
+      "static/chunks/b225470e1c551637.js",
+      "static/chunks/c37308755a3f51c1.js",
+      "static/chunks/749bbab60d9562ae.js",
+      "static/chunks/0fe4fe5517854a3e.js",
+      "static/chunks/67259b79ee7ed4e6.js",
+      "static/chunks/fe8f9e7064d53f41.js",
+      "static/chunks/2fe48a8c0cd7175c.js",
+      "static/chunks/turbopack-09c8a2f2340672d5.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/cd9870714d1c291c.js",
+      "static/chunks/f3f1db09aa0799f0.css",
+      "static/chunks/0fe4fe5517854a3e.js",
+      "static/chunks/67259b79ee7ed4e6.js",
+      "static/chunks/fe8f9e7064d53f41.js",
+      "static/chunks/2fe48a8c0cd7175c.js",
+      "static/chunks/turbopack-09c8a2f2340672d5.js"
+    ]
+  }
+}

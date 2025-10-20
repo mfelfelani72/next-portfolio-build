@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.skill-grad-1 {
+  background: linear-gradient(90deg, #2dd4bf, #06b6d4);
+}
+.skill-grad-2 {
+  background: linear-gradient(90deg, #a78bfa, #7c3aed);
+}
+.skill-grad-3 {
+  background: linear-gradient(90deg, #60a5fa, #0ea5e9);
+}
+.skill-grad-4 {
+  background: linear-gradient(90deg, #86efac, #22c55e);
+}
+.skill-grad-5 {
+  background: linear-gradient(90deg, #f472b6, #fb7185);
+}
+.skill-grad-6 {
+  background: linear-gradient(90deg, #a78bfa, #8b5cf6);
+}
+.skill-grad-7 {
+  background: linear-gradient(90deg, #fb923c, #f97316);
+}
