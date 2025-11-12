@@ -4,10 +4,15 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        NEXT_PUBLIC_BASE_ROUTE: "mfelfelani"
+        NEXT_PUBLIC_BASE_ROUTE: "home"
         NEXT_PUBLIC_BASE_PATH: "/next-portfolio"
         NEXT_PUBLIC_API_URL: "https://news.imoonex.ir"
         NEXT_PUBLIC_BASE_URL: "http://79.175.177.113:"
         NEXT_PUBLIC_BASE_PORT: "30800"
+        NEXT_PUBLIC_DATABASE_NAME: "portfolio"
+        NEXT_PUBLIC_TABLE_NAMES: "resume,settings"
+        NEXT_PUBLIC_REDIS_URL: redis://localhost:6379
+        NEXT_PUBLIC_ADMIN_USER: "admin"
+        NEXT_PUBLIC_ADMIN_PASS: "mohammad"
     ports:
       - "3001:3000"

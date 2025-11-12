@@ -10,12 +10,16 @@ import meta_fa from "./meta/fa.json";
 import meta_home_landing_fa from "./meta/home/landing/fa.json";
 
 import home_fa from "./home/fa.json";
+import admin_fa from "./admin/fa.json";
+import auth_fa from "./auth/fa.json";
 
 const fa = {
   meta: meta_fa,
   meta_home_landing: meta_home_landing_fa,
 
   ...home_fa,
+  ...admin_fa,
+  ...auth_fa,
 };
 
 export default fa;

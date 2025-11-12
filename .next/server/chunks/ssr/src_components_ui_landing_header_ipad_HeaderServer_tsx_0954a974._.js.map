@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/src/components/ui/landing/header/ipad/HeaderServer.tsx"],"sourcesContent":["import React from 'react'\n\nconst HeaderServer = () => {\n  return (\n    <div>HeaderServer</div>\n  )\n}\n\nexport default HeaderServer"],"names":[],"mappings":"qFAEqB,IAEjB,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,CAIM"}

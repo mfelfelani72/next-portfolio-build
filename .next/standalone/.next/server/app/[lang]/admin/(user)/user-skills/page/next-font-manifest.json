@@ -1,0 +1,17 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/[lang]/admin/(user)/user-skills/page": [
+      "static/media/Yekan_Bakh_Light-s.p.77e1d9b9.otf",
+      "static/media/Yekan_Bakh_Regular-s.p.ef582e8f.otf",
+      "static/media/Yekan_Bakh_Medium-s.p.c00886dd.otf",
+      "static/media/Yekan_Bakh_Bold-s.p.d9648369.otf",
+      "static/media/Satoshi_Light-s.p.e10728a1.otf",
+      "static/media/Satoshi_Regular-s.p.60f3af6d.otf",
+      "static/media/Satoshi_Medium-s.p.a85133ad.otf",
+      "static/media/Satoshi_Bold-s.p.7cb24862.otf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

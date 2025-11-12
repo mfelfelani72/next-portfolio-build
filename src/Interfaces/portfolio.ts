@@ -41,6 +41,7 @@ export interface ResumeData {
   name: string;
   title: string;
   summary: string;
+  avatar: string;
   skills: Skill[];
   tools: string[];
   networkingExperience: NetworkingExperience[];
@@ -48,4 +49,18 @@ export interface ResumeData {
   projects: Project[];
   languages: Language[];
   contact: Contact;
+}
+
+export interface MultiLanguageResume {
+  [key: string]: ResumeData;
+}
+
+export interface UpdateResumeRequest {
+  table: string;
+  data: MultiLanguageResume;
+}
+
+export interface AvatarData {
+  url: string;
+  updatedAt: string;
 }

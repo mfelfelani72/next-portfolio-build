@@ -56,7 +56,8 @@
       "disableStaticImages": false,
       "minimumCacheTTL": 60,
       "formats": [
-        "image/webp"
+        "image/webp",
+        "image/avif"
       ],
       "dangerouslyAllowSVG": false,
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
@@ -315,9 +316,9 @@
     ".next/server/next-font-manifest.js",
     ".next/server/next-font-manifest.json",
     ".next/required-server-files.json",
-    ".next/static/chunks/3b8ab594be6a21f6.css"
+    ".next/static/chunks/63d0dc50547513d3.css"
   ],
   "ignore": [
-    "node_modules/.pnpm/next@15.5.6_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*"
+    "node_modules/.pnpm/next@15.5.6_@opentelemetry+api@1.9.0_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*"
   ]
 }

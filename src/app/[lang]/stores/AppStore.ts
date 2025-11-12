@@ -23,9 +23,11 @@ type AppState = LoadingState & DeviceState;
 import { create } from "zustand";
 
 export const useAppStore = create<AppState>((set) => ({
+  // Loading state
   loading: false,
   setLoading: (value) => set({ loading: value }),
 
+  // Device state
   device: "",
   setDevice: (value) => set({ device: value }),
 }));

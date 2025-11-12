@@ -33,12 +33,108 @@
   },
   "dynamicRoutes": [
     {
-      "page": "/[lang]/mfelfelani",
-      "regex": "^/([^/]+?)/mfelfelani(?:/)?$",
+      "page": "/api/resume/[lang]/profile",
+      "regex": "^/api/resume/([^/]+?)/profile(?:/)?$",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
-      "namedRegex": "^/(?<nxtPlang>[^/]+?)/mfelfelani(?:/)?$"
+      "namedRegex": "^/api/resume/(?<nxtPlang>[^/]+?)/profile(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin",
+      "regex": "^/([^/]+?)/admin(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin/user-avatar",
+      "regex": "^/([^/]+?)/admin/user\\-avatar(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin/user\\-avatar(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin/user-certifications",
+      "regex": "^/([^/]+?)/admin/user\\-certifications(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin/user\\-certifications(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin/user-contact",
+      "regex": "^/([^/]+?)/admin/user\\-contact(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin/user\\-contact(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin/user-languages",
+      "regex": "^/([^/]+?)/admin/user\\-languages(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin/user\\-languages(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin/user-profile",
+      "regex": "^/([^/]+?)/admin/user\\-profile(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin/user\\-profile(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin/user-projects",
+      "regex": "^/([^/]+?)/admin/user\\-projects(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin/user\\-projects(?:/)?$"
+    },
+    {
+      "page": "/[lang]/admin/user-skills",
+      "regex": "^/([^/]+?)/admin/user\\-skills(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/admin/user\\-skills(?:/)?$"
+    },
+    {
+      "page": "/[lang]/auth/login",
+      "regex": "^/([^/]+?)/auth/login(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/auth/login(?:/)?$"
+    },
+    {
+      "page": "/[lang]/blogs",
+      "regex": "^/([^/]+?)/blogs(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/blogs(?:/)?$"
+    },
+    {
+      "page": "/[lang]/home",
+      "regex": "^/([^/]+?)/home(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/home(?:/)?$"
+    },
+    {
+      "page": "/[lang]/projects",
+      "regex": "^/([^/]+?)/projects(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/projects(?:/)?$"
     }
   ],
   "staticRoutes": [
