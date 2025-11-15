@@ -90,9 +90,7 @@
       "keepAlive": true
     },
     "logging": {},
-    "compiler": {
-      "removeConsole": true
-    },
+    "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
     "output": "standalone",
